@@ -1,1 +1,1 @@
-java -XX:MinRAMPercentage=70 -XX:MaxRAMPercentage=90 -jar /app/shipping.jar
+uwsgi --ini payment.ini
